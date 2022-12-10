@@ -1,0 +1,68 @@
+/* hiding of navigation bar of streamlit */
+.css-18ni7ap{
+    z-index: -5;
+}
+.css-1offfwp{
+    z-index: 10;
+}
+/* header name */
+.css-1629p8f span {
+    font-size: 58px;
+    font-weight: 500;
+    z-index: 6;
+    top: -35px;
+}
+/*background image  */
+.css-k1vhr4{
+     background-image: url('https://c1.wallpaperflare.com/preview/767/442/400/stethoscope-medical-health-doctor.jpg'); */
+    /* background-color: #e6a612ce; */
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+/* text of in the box */
+.css-184tjsw p{
+    word-break: break-word;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* button */
+.css-1x8cf1d{
+        
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px !important;
+    border-radius: 18px;
+    MARGIN-LEFT: 250PX;
+}
+/*.button {
+  /*  background-color: #4CAF50; /* Green */
+    /*border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    .button1 {border-radius: 2px;}
+  }*/
+  .st-e8 {
+      color: rgb(49 51 63);
+  }
+.css-1offfwp p{
+    font-size:22px;
+    font-weight: 700;
+    color: initial;
+
+} 
+.css-1x8cf1d:hover{
+    background-color:#f9f9f9;
+    border: 10px;
+    border-color: black;
+    
+    transition: 0.7s;
+}

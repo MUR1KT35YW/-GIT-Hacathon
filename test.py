@@ -1,16 +1,46 @@
-lst1=['h','y']
-lst2=[6,7,8,9,10]
-list=[]
-def weight(x):
-    for i in lst1:
-        if(x==i):
-            list.append(1)
-        else:
-            pass
-    for i in lst2:
-        if(x==i):
-            list.append(2)
-        else:
-            pass
-weight('h')
-print(list)
+import pandas as pd
+dis=['Drug Reaction',
+ 'Malaria',
+ 'Allergy',
+ 'Hypothyroidism',
+ 'Psoriasis',
+ 'GERD',
+ 'Chronic cholestasis',
+ 'hepatitis A',
+ 'Osteoarthristis',
+ '(vertigo) Paroymsal  Positional Vertigo',
+ 'Hypoglycemia',
+ 'Acne',
+ 'Diabetes ',
+ 'Impetigo',
+ 'Hypertension ',
+ 'Peptic ulcer diseae',
+ 'Dimorphic hemmorhoids(piles)',
+ 'Common Cold',
+ 'Chicken pox',
+ 'Cervical spondylosis',
+ 'Hyperthyroidism',
+ 'Urinary tract infection',
+ 'Varicose veins',
+ 'AIDS',
+ 'Paralysis (brain hemorrhage)',
+ 'Typhoid',
+ 'Hepatitis B',
+ 'Fungal infection',
+ 'Hepatitis C',
+ 'Migraine',
+ 'Bronchial Asthma',
+ 'Alcoholic hepatitis',
+ 'Jaundice',
+ 'Hepatitis E',
+ 'Dengue',
+ 'Hepatitis D',
+ 'Heart attack',
+ 'Pneumonia',
+ 'Arthritis',
+ 'Gastroenteritis',
+ 'Tuberculosis']
+index=dis.index('Allergy')
+data=pd.read_csv('symptom_precaution.csv')
+
+print('precaution 1 is:-',data.iloc[index,1])
